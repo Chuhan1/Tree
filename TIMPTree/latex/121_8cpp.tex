@@ -1,0 +1,89 @@
+\hypertarget{121_8cpp}{}\section{Файл T\+I\+M\+P Tree/121.cpp}
+\label{121_8cpp}\index{T\+I\+M\+P Tree/121.\+cpp@{T\+I\+M\+P Tree/121.\+cpp}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{121_8cpp_af6188d3a631a550759a5f41c2f06ed72}{pramoi} (int c, int n, int $\ast$A)
+\item 
+void \hyperlink{121_8cpp_a6b20e5c601bb9d88378924964eb4df6c}{obratni} (int c, int n, int $\ast$A)
+\item 
+void \hyperlink{121_8cpp_a8a15c63e8c39b2ee41eab2436543af52}{simmetr} (int c, int n, int $\ast$A)
+\item 
+void \hyperlink{121_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main} ()
+\begin{DoxyCompactList}\small\item\em Вводится количесиво узлов, далее для каждого узла вводится родитель. На экран выводится исходный масиив и ряды элементов, соответствующим 3ём обходам дерева \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+\begin{DoxyVersion}{Версия}
+1.\+0  Release tree 
+\end{DoxyVersion}
+
+
+\subsection{Функции}
+\hypertarget{121_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{}\index{121.\+cpp@{121.\+cpp}!main@{main}}
+\index{main@{main}!121.\+cpp@{121.\+cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}void main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{121_8cpp_acdef7a1fd863a6d3770c1268cb06add3}
+
+
+Вводится количесиво узлов, далее для каждого узла вводится родитель. На экран выводится исходный масиив и ряды элементов, соответствующим 3ём обходам дерева 
+
+/$\ast$ и -\/ номер узла, джи -\/ родитель \hypertarget{121_8cpp_a6b20e5c601bb9d88378924964eb4df6c}{}\index{121.\+cpp@{121.\+cpp}!obratni@{obratni}}
+\index{obratni@{obratni}!121.\+cpp@{121.\+cpp}}
+\subsubsection[{obratni}]{\setlength{\rightskip}{0pt plus 5cm}void obratni (
+\begin{DoxyParamCaption}
+\item[{int}]{c, }
+\item[{int}]{n, }
+\item[{int $\ast$}]{A}
+\end{DoxyParamCaption}
+)}\label{121_8cpp_a6b20e5c601bb9d88378924964eb4df6c}
+Рекурсивная функция обратного обхода дерева 
+\begin{DoxyParams}{Аргументы}
+{\em c} & -\/ подаваемое значение узла (родитель) \\
+\hline
+{\em n} & -\/ подаваемое количество узлов \\
+\hline
+{\em $\ast$\+A} & -\/ подаваемый указатель на массив родителей узлов \\
+\hline
+\end{DoxyParams}
+\hypertarget{121_8cpp_af6188d3a631a550759a5f41c2f06ed72}{}\index{121.\+cpp@{121.\+cpp}!pramoi@{pramoi}}
+\index{pramoi@{pramoi}!121.\+cpp@{121.\+cpp}}
+\subsubsection[{pramoi}]{\setlength{\rightskip}{0pt plus 5cm}void pramoi (
+\begin{DoxyParamCaption}
+\item[{int}]{c, }
+\item[{int}]{n, }
+\item[{int $\ast$}]{A}
+\end{DoxyParamCaption}
+)}\label{121_8cpp_af6188d3a631a550759a5f41c2f06ed72}
+Рекурсивная функция прямого обхода дерева 
+\begin{DoxyParams}{Аргументы}
+{\em c} & -\/ подаваемое значение узла (родитель) \\
+\hline
+{\em n} & -\/ подаваемое количество узлов \\
+\hline
+{\em $\ast$\+A} & -\/ подаваемый указатель на массив родителей узлов \\
+\hline
+\end{DoxyParams}
+\hypertarget{121_8cpp_a8a15c63e8c39b2ee41eab2436543af52}{}\index{121.\+cpp@{121.\+cpp}!simmetr@{simmetr}}
+\index{simmetr@{simmetr}!121.\+cpp@{121.\+cpp}}
+\subsubsection[{simmetr}]{\setlength{\rightskip}{0pt plus 5cm}void simmetr (
+\begin{DoxyParamCaption}
+\item[{int}]{c, }
+\item[{int}]{n, }
+\item[{int $\ast$}]{A}
+\end{DoxyParamCaption}
+)}\label{121_8cpp_a8a15c63e8c39b2ee41eab2436543af52}
+Рекурсивная функция симметричного обхода дерева 
+\begin{DoxyParams}{Аргументы}
+{\em c} & -\/ подаваемое значение узла (родитель) \\
+\hline
+{\em n} & -\/ подаваемое количество узлов \\
+\hline
+{\em $\ast$\+A} & -\/ подаваемый указатель на массив родителей узлов \\
+\hline
+\end{DoxyParams}
